@@ -1,25 +1,23 @@
  FUTURE_CS_02 - Phishing Email Detection
 
-Intern: Kashish Maurya | CIN: FIT/SEP26/CS10312 | Future Interns Task 2
+Intern: Kashish Maurya | CIN: FIT/SEP26/CS10312 |Future Interns Task 2
 
-Objective
+ Objective
 Analyze real phishing samples and create awareness report.
 
-Analysis
-Email-01: SAFE - interns@futureinterns.com | 0 Flags | VT 0/89 Clean, SPF PASS
+ Analysis
+Email-01 SAFE: interns@futureinterns.com | 0 Flags | VT 0/89 Clean, SPF PASS
+Email-02 SUSPICIOUS: hr-notice@... | Reply-To mismatch, generic greeting, HTTP | Verify with HR
+- **Email-03 PHISHING: support@msupdate.net (Fake Microsoft) | 5 Flags - Fake domain, SPF Fail, VT 3/89, WHOIS phishingbox.com
 
-Email-02: SUSPICIOUS - hr-notice@... | Reply-To mismatch, generic greeting, HTTP link | Verify with HR
-
-Email-03: PHISHING - support@msupdate.net (Fake Microsoft) | 5 Flags - Fake domain, SPF Fail, VT 3/89 malicious, WHOIS phishingbox.com
-
- Tools:
+Tools
 MXToolbox, VirusTotal, WHOIS, Google Header Tool
 
- Prevention:
- Check full email, hover on links, verify via official site
+ Prevention
+ Check full email, hover on links, verify via official site  
  Don't click fear links, don't share OTP
 
- Files:
+ Files
  Report PDF
  Evidence Screenshots
 
